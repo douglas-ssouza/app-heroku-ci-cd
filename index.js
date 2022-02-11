@@ -8,6 +8,4 @@ app.get('/', (_req, res) => {
   res.send(`<h1>Rodando na porta ${port} <h1>`);
 });
 
-app.listen(port, () => {
-  console.log(`Online: ${port}`);
-});
+app.listen(port);
